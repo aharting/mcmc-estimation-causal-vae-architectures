@@ -1,0 +1,68 @@
+# Service Information File for System-Z in YAML format.
+
+# Basic YAML syntax here: http://www.yaml.org/spec/1.2/spec.html
+# Online parser here: http://yaml-online-parser.appspot.com/
+# Short version:
+#   Strings: single, double or no quotes. Multiline string? Read docs.
+#   Lists: with [] or each entry indented on a line with a - .
+#   Maps: with {key: val} or each pair indented on a line.
+#     (also, x means "x", but no means false, because reasons.)
+
+# Unique ID for this component (in System-Z):
+id: mcmc-estimation-causal-vae-architectures
+
+# The system this component belongs to:
+system: science-box-cloud-aharting
+
+# Main owner of this component (LDAP group or individual):
+owner: aharting
+
+# Description of the component.
+description: |-
+  MCMC estimation of causal VAE architectures - algorithms and synthetic experiments
+
+# Intended usage of this component:
+#   'private' - only for use by the owner
+#   'public'  - exposes an api for other squads (like metadata)
+# Components that are under development, experimental, not
+# supported, replaced, liable to change without warning, etc.
+# should generally be marked as private.
+visibility: private
+
+# A list of other components (services, data stores, etc.) on which
+# this component depends. Must be valid service_discovery names
+# registered in the Nameless service.
+dependencies: []
+
+facts:
+  component_type: sciencebox-project
+
+  # Links to the latest definitive documentation for this service.
+  # Markdown is supported, e.g. docs: '[Title] (URL)'
+  docs: http://spoti.fi/sciencebox
+
+  # Lifecycle is a new experimental feature
+  # we prefer one of: experimental, production,deprecated, removed
+  lifecycle: experimental
+
+  # Any tags you like, to help refine search results.
+  tags:
+    - science-box
+    - science-box-cloud
+    - analysis
+
+  # Links to support systems. Remove hash to enable.
+  slack_channel: aharting  # Link to Slack channel.
+  #pagerdutykey: decafbad  # PagerDuty API key.
+
+  # Custom key-values, for owner's own use.
+  #custom_key: custom_value
+
+  # Other teams or individuals to which you want to grant authorization
+  # for things like changing capacity in System-Z
+  maintainers:
+    - science-box
+
+  sciencebox:
+    image: eu.gcr.io/sciencebox-cluster/sciencebox-base-image/sb-image-full-3.9
+    imageVersion: 0.2.5

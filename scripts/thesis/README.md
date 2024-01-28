@@ -1,0 +1,1 @@
+This directory contains code developed as part of this paper. In particular, Algorithm 4-5 is implemented in `mcmc_algorithm.py`.

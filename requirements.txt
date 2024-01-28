@@ -1,0 +1,12 @@
+#  Get packages from Spotify's internal PyPi
+--index-url https://pypi.spotify.net/spotify/production
+
+# Add additional python packages you want to install to this pip requirements file.
+# For example, uncomment the following line and type `sb --build` to install
+# the Google API library to ScienceBox.
+
+# Before adding a package, check what packages are already installed with `sb pip3 freeze`.
+
+# google-api-python-client
+xicorrelation
+torch
