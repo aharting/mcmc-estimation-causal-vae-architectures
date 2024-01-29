@@ -3,6 +3,7 @@
 Algorithms and simulated experiments
 
 Author: Alice Harting, supervised by Liam Solus
+
 KTH Royal Institute of Technology
 
 ## About this repo
