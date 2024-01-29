@@ -22,5 +22,5 @@ There are three main folders:
 `storage` contains a sample of randomly generated matrices (UDGs). 
 
 ## Reproduction of results
-To reproduce, run `reproduce_results.sh`.
+To reproduce the simulated experiments, run `reproduce_results.sh`.
 
