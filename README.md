@@ -9,6 +9,8 @@ KTH Royal Institute of Technology
 ## About this repo
 This repo contains the algorithms and simulated experiments in the paper *MCMC estimation of causal VAE architectures*. We reproduce the results in Chapter 3 *MCMC estimation of UEC* and Section 4.4.1 *Simulated randomized control trial*. To protect business information, no Spotify data or code is included. The code herein has been developed independently of proprietary code and methods of Spotify.
 
+Please see the [poster](poster.pdf) for a summary of the paper.
+
 ## Organisation
 There are three main folders:
 - `scripts`
